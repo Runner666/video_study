@@ -56,7 +56,7 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
     git rm --cached 1.txt:从版本库中移除，但保留在磁盘中（即不再跟踪该文件）  
     git rm 移除版本库中已跟踪的文件，并连带从工作目录中删除该文件  
     git status:观看文件的状态  
-    git pull:从远程获得被删除的文件  
+    git pull:从远程获得被删除的文件  
     rm 1.txt  
     git checkout 1.txt:恢复用rm 删除且没有提交的文件，不可恢复用git rm 删除的文件
 
