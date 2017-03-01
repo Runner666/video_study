@@ -1,5 +1,5 @@
-####目录
->###1.[Git简介](#1)
+##目录
+###1.[Git简介](#1)
 ###2.[Git下载](#2)
 ###3.[Git配置](#3)
 ###4.[GitHub简介](#4)
@@ -10,38 +10,38 @@
 ###9.[Git版本管理](#9)
 ###10.[Git分支管理](#10)
 ###11.[GitHub社区一些操作的简介](#11)
-<h2 id=1>1.Git简介</h2>
+<h2 id=1>###1.Git简介</h2>
 >Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。  
 
-###2.Git下载
+<h2 id=2>###2.Git下载</h2>
 >[官网地址](https://git-scm.com/downloads)  
 >[网盘下载](http://pan.baidu.com/s/1i5n1EMp) 提取码：gloc  
 安装
 
-###3.Git配置
+<h2 id=3>###3.Git配置</h2>  
 
     git config --global user.name "Your Name"  
     git config --global user.email "email@example.com"
 
-###4.GitHub简介  
+<h2 id=4>###4.GitHub简介</h2>  
 >GitHub 是一个面向开源及私有软件项目的托管平台，因为只支持 Git 作为唯一的版本库格式进行托管，故名 GitHub。
 GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及基本的 Web 管理界面以外，还提供了订阅、讨论组、文本渲染、在线文件编辑器、协作图谱（报表）、代码片段分享（Gist）等功能。目前，其注册用户已经超过350万，托管版本数量也是非常之多，其中不乏知名开源项目 Ruby on Rails、jQuery、python 等。
 
-###5.Github注册
+<h2 id=5>###5.Github注册</h2>
 
-###6.建立本地仓库 
+<h2 id=6>###6.建立本地仓库</h2> 
 
     git init  
 >补充:如何将电脑里的隐藏文件显示出来
 
-###7.本地仓库与远程仓库的关联  
+<h2 id=7>###7.本地仓库与远程仓库的关联</h2>  
 >生成SSH key:
 
     ssh-keygen -t rsa -b 4096 -C "2544762494@qq.com"  
     clip < ~/.ssh/id_rsa.pub复制key，然后粘贴到github上的Key区域
     git remote add origin git@github.com:houtu/test.git
 
-###8.本地仓库与远程仓库的同步  
+<h2 id=8>###8.本地仓库与远程仓库的同步</h2>  
 
 >引入工作区、暂存区stage、版本库的概念
 
@@ -75,7 +75,7 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
 >直接从远程仓库克隆一个仓库到本地
 
     git clone git@github.com:houtu/test.git
-###9.Git版本管理
+<h2 id=9>###9.Git版本管理</h2>
 
     git add 2.txt  
     git commit -m "再来一个文件"  
@@ -105,7 +105,7 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
   
   
   
-###10.Git分支管理  
+<h2 id=10>###10.Git分支管理</h2>  
 >文件冲突的解决  
 >分支融合   
 >创建一个新的分支
@@ -124,4 +124,4 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
 >删除不需要的b1分支
 
     git branch -d b1
-###11.GitHub社区一些操作的简介
+<h2 id=11>###11.GitHub社区一些操作的简介</h2>
