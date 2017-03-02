@@ -68,10 +68,10 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
 
     git rm --cached 1.txt:从版本库中移除，但保留在磁盘中（即不再跟踪该文件）  
     git rm 移除版本库中已跟踪的文件，并连带从工作目录中删除该文件  
-    git status:观看文件的状态  
-    git pull:从远程获得被删除的文件  
+    git status:观看文件的状态    
     rm 1.txt  
-    git checkout 1.txt:恢复用rm 删除且没有提交的文件，不可恢复用git rm 删除的文件
+    git checkout 1.txt:恢复用rm 删除且没有提交的文件，不可恢复用git rm 删除的文件  
+    git pull:从远程获得被删除的文件
 
 >直接从远程仓库克隆一个仓库到本地
 
@@ -106,23 +106,28 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
   
   
   
-<h4 id=10>10.Git分支管理</h4>  
+<h4 id=10>10.Git分支管理</h4>  
 >文件冲突的解决  
->分支融合   
+>分支融合  
 >创建一个新的分支
 
     git checkout -b b1
+    
 >在b1分支上添加一个新文件
 
     git add .  
     git commit -m "在b1分支上添加了一个新文件"
+    
 >切换到主分支
 
     git chectout master
+    
 >在分支上融合另一个分支
 
     git merge b1
+    
 >删除不需要的b1分支
 
     git branch -d b1
+    
 <h4 id=11>11.GitHub社区一些操作的简介</h4>
