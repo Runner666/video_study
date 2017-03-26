@@ -55,8 +55,7 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
 >>![仓库概念图](repository.png)
 
 >坑:两次git push 失败！  
-
->工作区有一个1.txt
+工作区有一个1.txt
 
     git push -u origin master
 
@@ -114,8 +113,8 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
   
 <h4 id=10>10.Git分支管理</h4>  
 >文件冲突的解决  
->分支融合  
->基于当前master的状态重新一个新的分支
+分支融合  
+基于当前master的状态重新一个新的分支
 
     git checkout -b b1
     
