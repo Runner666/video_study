@@ -12,11 +12,11 @@
 #### 11.[GitHub社区一些操作的简介](#11)
 ---------------------------------------
 <h4 id=1>1.Git简介</h4>
->Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。  
+> Git是一个开源的分布式版本控制系统，可以有效、高速的处理从很小到非常大的项目版本管理。Git 是 Linus Torvalds 为了帮助管理 Linux 内核开发而开发的一个开放源码的版本控制软件。  
 
 <h4 id=2>2.Git下载</h4>
->[官网地址](https://git-scm.com/downloads)  
->[网盘下载](http://pan.baidu.com/s/1i5n1EMp) 提取码：gloc  
+> [官网地址](https://git-scm.com/downloads)  
+> [网盘下载](http://pan.baidu.com/s/1i5n1EMp) 提取码：gloc  
 安装
 
 <h4 id=3>3.Git配置</h4>  
