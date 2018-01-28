@@ -84,7 +84,7 @@ GitHub 于 2008 年 4 月 10 日正式上线，除了 Git 代码仓库托管及�
 
 >直接从远程仓库克隆一个仓库到本地
 
-    git clone git@github.com:houtu/test.git
+    git clone git@github.com:Runner666/test.git
 <h4 id=9>9.Git版本管理</h4>
 
     git add 2.txt  
